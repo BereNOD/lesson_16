@@ -1,7 +1,7 @@
 const setPosts = (data) => {
   const postsContainer = document.querySelector('.Posts');
 
-  postsContainer.innerHTML = '';
+  postsContainer.innerHTML = 'ghbvth';
 
   for (const item of data) {
     postsContainer.innerHTML += `<a href="/post/${item.id}">${item.title}</a>`;
